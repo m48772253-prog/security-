@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b211b">
+<title>لوحة الإحصائيات | Cyber Lab</title>
+<link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+<header>
+  <a href="index.html">← العودة للمختبر</a>
+  <h1>لوحة الإحصائيات</h1>
+  <p>Cyber Security Lab Dashboard</p>
+</header>
+
+<main>
+  <div class="notice">
+    هذه إحصائيات محلية للمتصفح الحالي فقط، وليست إحصائيات جميع زوار الموقع.
+  </div>
+
+  <section class="stats">
+    <article>
+      <span>إجمالي المحاولات</span>
+      <strong id="attempts">0</strong>
+    </article>
+
+    <article>
+      <span>الإجابات الصحيحة</span>
+      <strong id="correct">0</strong>
+    </article>
+
+    <article>
+      <span>نسبة النجاح</span>
+      <strong id="percentage">0%</strong>
+    </article>
+  </section>
+
+  <section class="panel">
+    <h2>تحليل الأداء</h2>
+    <div class="bar-background">
+      <div id="progress" class="bar"></div>
+    </div>
+    <p id="message">لم تبدأ أي محاولة بعد.</p>
+  </section>
+
+  <button id="clear">مسح الإحصائيات المحلية</button>
+</main>
+
+<footer>Cyber Security Lab © 2026</footer>
+
+<script src="dashboard.js"></script>
+</body>
+</html>
