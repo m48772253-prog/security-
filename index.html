@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0b211b">
+<meta name="description" content="مختبر تعليمي للتوعية بالتصيد الاحتيالي والأمن السيبراني">
+<title>Cyber Security Lab</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <a class="logo" href="index.html">
+    <span class="logo-icon">⌁</span>
+    CYBER LAB
+  </a>
+  <a class="dashboard-link" href="dashboard.html">لوحة الإحصائيات</a>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="shield">◈</div>
+    <span class="eyebrow">CYBERSECURITY AWARENESS PROJECT</span>
+    <h1>مختبر الأمن السيبراني</h1>
+    <p class="subtitle">
+      تعلّم كيف تعمل هجمات التصيد الاحتيالي،
+      واكتشف العلامات التي تساعدك على حماية حساباتك.
+    </p>
+    <div class="status">
+      <span class="dot"></span>
+      بيئة تعليمية آمنة
+    </div>
+  </section>
+
+  <section class="simulation card">
+    <span class="section-label">PHISHING SIMULATION</span>
+    <h2>اختبار الوعي الأمني</h2>
+    <p>هل تستطيع اكتشاف محاولة التصيد؟</p>
+
+    <div class="warning">
+      <strong>تنبيه تعليمي</strong>
+      <p>هذه محاكاة معلنة. لا تدخل كلمات مرور أو معلومات شخصية.</p>
+    </div>
+
+    <div class="scenario">
+      <div class="message-head">
+        <span class="message-icon">✉</span>
+        <div>
+          <strong>رسالة تجريبية</strong>
+          <small>مثال توعوي غير حقيقي</small>
+        </div>
+      </div>
+
+      <div class="message-body">
+        <h3>تنبيه بشأن حسابك!</h3>
+        <p>
+          وصلت إليك رسالة تطلب منك مراجعة حسابك عبر رابط غير معروف.
+          هل تثق بهذه الرسالة؟
+        </p>
+        <div class="fake-url">example.invalid/account-check</div>
+      </div>
+    </div>
+
+    <h3 class="question">ما التصرف الأكثر أماناً؟</h3>
+
+    <div class="choices">
+      <button class="choice" data-answer="wrong">
+        فتح الرابط مباشرة
+      </button>
+      <button class="choice" data-answer="correct">
+        التحقق من المصدر وعدم فتح الرابط
+      </button>
+      <button class="choice" data-answer="wrong">
+        إرسال بيانات الحساب للمرسل
+      </button>
+    </div>
+
+    <div id="feedback" class="feedback" aria-live="polite"></div>
+
+    <button id="reset" class="reset-btn" hidden>
+      إعادة الاختبار
+    </button>
+  </section>
+
+  <section class="features">
+    <h2>ماذا ستتعلم؟</h2>
+    <div class="feature-grid">
+      <article class="feature">
+        <span>01</span>
+        <h3>Phishing</h3>
+        <p>فهم أساليب التصيد الاحتيالي.</p>
+      </article>
+      <article class="feature">
+        <span>02</span>
+        <h3>Email Security</h3>
+        <p>التعرف على الرسائل المشبوهة.</p>
+      </article>
+      <article class="feature">
+        <span>03</span>
+        <h3>Web Security</h3>
+        <p>فهم أهمية التحقق من عناوين المواقع.</p>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>Cyber Security Lab © 2026</p>
+  <p>مشروع تعليمي مستقل وغير مرتبط بأي مؤسسة أو خدمة تجارية.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
